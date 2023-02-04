@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style 
+    style
+      include ../static/style.css
+
+block content    
+     section#introSection
+        div Welcome to SHAHNOK's Dance Academy 
+        div.small "Anybody Can Dance"
+    
+     section#missionSection
+        h2 Our Missions
+        div.card
+           h3 Dance perfection
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/7.png")
+               div.card-content 
+                   p This is the best dance academy of the universe
+        div.card
+           h3 Dance the way you like
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/6.png")
+               div.card-content 
+                   p This is the best dance academy of the universe
+        div.card
+           h3 Expert teaching
+           div.card-box 
+               div.card-img 
+                   img(src="/static/img/7.png")
+               div.card-content 
+                   p This is the best dance academy of the universe
+     section#sponsorSection
+        h2 Our sponsors
+        div#sponsors 
+            img(src="/static/img/e.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/q.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/r.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/w.png",alt="Sponsor Image",class="spImage")

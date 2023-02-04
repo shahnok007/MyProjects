@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Yatra+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    
+
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #fa0303;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+.container{
+    min-height: 60vh;
+    margin: 43px 0;
+}
+
+.container h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 34px;
+    
+}
